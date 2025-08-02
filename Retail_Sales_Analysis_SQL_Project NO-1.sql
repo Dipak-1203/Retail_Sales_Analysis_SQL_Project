@@ -166,7 +166,6 @@ order by 1
 ---Q7) Write a SQL query to calculate the average sale for each month. Find out best selling month in each year.
 -- MOST IMPORTANT 
 
-SELECT * FROM
 
 SELECT 
     EXTRACT(YEAR FROM sale_date) AS year,
@@ -241,6 +240,7 @@ group by shift
 
 
 	
+
 
 
 
